@@ -16,7 +16,7 @@ pod 'MJRefresh'
 # 标题选择
 pod 'CMPageTitleView'
 # 约束
-pod 'Masonry' 
+pod 'Masonry'
 #微信
 pod 'WechatOpenSDK'
 # 键盘管理
