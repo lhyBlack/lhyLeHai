@@ -1,0 +1,34 @@
+//
+//  LHYHeader.pch
+//  lhyLeHaiPro
+//
+//  Created by haha on 2019/11/22.
+//  Copyright © 2019 haha. All rights reserved.
+//
+
+#ifndef LHYHeader_pch
+#define LHYHeader_pch
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+//微信注册AppID
+#define WXAppID @"wx567993a35a1ef5d5"
+
+#define KNotificationCenter [NSNotificationCenter defaultCenter]
+
+#import "MBProgressHUD+MJ.h"
+
+#import "ScaleFile.h"
+
+#import "ColorFile.h"
+
+#import "LHYCategoriesSet.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LHYHeader_pch */

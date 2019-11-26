@@ -1,0 +1,6 @@
+framework module Pods_lhyLeHaiPro {
+  umbrella header "Pods-lhyLeHaiPro-umbrella.h"
+
+  export *
+  module * { export * }
+}

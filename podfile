@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, "9.0"
+
+target "lhyLeHaiPro" do
+# Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+use_frameworks!
+inhibit_all_warnings!
+
+# Pods for lhyLeHaiPro
+# 网络加载
+pod 'AFNetworking'
+# 图片加载
+pod 'SDWebImage'
+# 刷新
+pod 'MJRefresh'
+# 标题选择
+pod 'CMPageTitleView'
+# 约束
+pod 'Masonry' 
+#微信
+pod 'WechatOpenSDK'
+# 键盘管理
+pod 'IQKeyboardManager'
+#即时通讯
+pod 'XMPPFramework'
+end
